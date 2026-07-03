@@ -1,0 +1,132 @@
+<div class="menu-toggle" onclick="toggleMenu()">
+    ☰
+</div>
+
+<nav id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="how-it-works.html">How It Works</a>
+    <a href="reviews.html">Reviews</a>
+    <a href="faq.html">FAQ</a>
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+</nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Websites for Restaurants & Cafes | Ready Set Site</title>
+  <meta name="description" content="Appetising websites for restaurants and cafes with menus, photo galleries and online booking links that fill more tables.">
+  <meta name="keywords" content="restaurant website, cafe website design, menu website, restaurant booking website">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo-area">
+    <div class="logo">RS</div>
+    <div>
+      <h2>Ready Set Site</h2>
+      <p>WEB DESIGN STUDIO</p>
+    </div>
+  </div>
+
+  <nav class="main-nav">
+    <a href="index.html">Home</a>
+
+    <div class="dropdown">
+      <a href="services.html" class="drop-toggle">Services <b>&#9662;</b></a>
+      <div class="dropdown-menu">
+        <a href="business-website.html">Business Website</a>
+        <a href="seo.html">SEO</a>
+        <a href="starter-website.html">Starter Website</a>
+        <a href="pricing.html">Pricing</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <a href="portfolio.html" class="drop-toggle">Sectors <b>&#9662;</b></a>
+      <div class="dropdown-menu">
+        <a href="sector-trades.html">Trades</a>
+        <a href="sector-restaurants.html">Restaurants</a>
+        <a href="sector-startups.html">Startups</a>
+        <a href="sector-local-businesses.html">Local Businesses</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <a href="about.html" class="drop-toggle">About <b>&#9662;</b></a>
+      <div class="dropdown-menu">
+        <a href="about.html">About Us</a>
+        <a href="how-it-works.html">How It Works</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="faq.html">FAQ</a>
+      </div>
+    </div>
+
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <a href="contact.html" class="top-btn">Get Started</a>
+</header>
+
+<section class="page-hero split-page">
+  <div>
+    <h1>Websites for <span>Restaurants</span></h1>
+    <p>Show off your food, share your menu and take bookings - a website that makes hungry customers choose you over the place down the road.</p>
+  </div>
+  <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80" alt="Restaurant interior with tables set for guests">
+</section>
+
+<section class="portfolio-grid">
+  <div class="portfolio-card">
+    <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=900&q=80" alt="Plated restaurant dish" loading="lazy">
+    <h2>Mouth-Watering Menus</h2>
+    <p>Your full menu online with photos that make every dish look irresistible.</p>
+  </div>
+
+  <div class="portfolio-card">
+    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80" alt="Restaurant food gallery" loading="lazy">
+    <h2>Photo Gallery</h2>
+    <p>A gallery of your food and space that gives guests a taste before they arrive.</p>
+  </div>
+
+  <div class="portfolio-card">
+    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=900&q=80" alt="Guests booking a table" loading="lazy">
+    <h2>Easy Online Bookings</h2>
+    <p>Booking and reservation links so tables get filled straight from your website.</p>
+  </div>
+</section>
+
+<section class="explain">
+  <h2>Why restaurants need a website</h2>
+  <p>Before choosing where to eat, people check the menu, the photos and the reviews online. A website puts all of that in one place that you control - not buried on a third-party app that charges you commission on every order.</p>
+  <p>With your menu, gallery and booking links front and centre, hungry customers can go from "what shall we eat?" to a booked table in seconds.</p>
+</section>
+
+<section class="about-cta">
+  <h2>Fill more tables.</h2>
+  <p>Give your restaurant a website that turns local searches into bookings.</p>
+  <a href="contact.html" class="article-button">Get a Free Quote</a>
+</section>
+
+<a href="https://wa.me/447780828487" class="whatsapp-float" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="Chat with Ready Set Site on WhatsApp">
+</a>
+
+<footer>
+  <p>&copy; 2026 Ready Set Site. All Rights Reserved.</p>
+</footer>
+
+<script src="chat.js" defer></script>
+</body>
+<script>
+function toggleMenu() {
+    document.getElementById("mobileMenu").classList.toggle("show-menu");
+}
+</script>
+</html>

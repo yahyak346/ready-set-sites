@@ -1,0 +1,132 @@
+<div class="menu-toggle" onclick="toggleMenu()">
+    ☰
+</div>
+
+<nav id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="how-it-works.html">How It Works</a>
+    <a href="reviews.html">Reviews</a>
+    <a href="faq.html">FAQ</a>
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+</nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starter Website from £100 | Ready Set Site</title>
+  <meta name="description" content="A clean one-page starter website from £100. Perfect for new businesses that need to get online fast with services, contact details and an enquiry form.">
+  <meta name="keywords" content="starter website, cheap website design, one page website, website from 100">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo-area">
+    <div class="logo">RS</div>
+    <div>
+      <h2>Ready Set Site</h2>
+      <p>WEB DESIGN STUDIO</p>
+    </div>
+  </div>
+
+  <nav class="main-nav">
+    <a href="index.html">Home</a>
+
+    <div class="dropdown">
+      <a href="services.html" class="drop-toggle">Services <b>&#9662;</b></a>
+      <div class="dropdown-menu">
+        <a href="business-website.html">Business Website</a>
+        <a href="seo.html">SEO</a>
+        <a href="starter-website.html">Starter Website</a>
+        <a href="pricing.html">Pricing</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <a href="portfolio.html" class="drop-toggle">Sectors <b>&#9662;</b></a>
+      <div class="dropdown-menu">
+        <a href="sector-trades.html">Trades</a>
+        <a href="sector-restaurants.html">Restaurants</a>
+        <a href="sector-startups.html">Startups</a>
+        <a href="sector-local-businesses.html">Local Businesses</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <a href="about.html" class="drop-toggle">About <b>&#9662;</b></a>
+      <div class="dropdown-menu">
+        <a href="about.html">About Us</a>
+        <a href="how-it-works.html">How It Works</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="faq.html">FAQ</a>
+      </div>
+    </div>
+
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <a href="contact.html" class="top-btn">Get Started</a>
+</header>
+
+<section class="page-hero split-page">
+  <div>
+    <h1>Starter <span>Website</span></h1>
+    <p>A clean, professional one-page website that gets your business online fast - your services, contact details and an enquiry form, all from £100.</p>
+  </div>
+  <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80" alt="Laptop showing a clean one-page starter website">
+</section>
+
+<section class="portfolio-grid">
+  <div class="portfolio-card">
+    <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=900&q=80" alt="Laptop ready to launch a website" loading="lazy">
+    <h2>Live in Days</h2>
+    <p>A fast turnaround gets your business online in days, not weeks or months.</p>
+  </div>
+
+  <div class="portfolio-card">
+    <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=900&q=80" alt="Single page website layout" loading="lazy">
+    <h2>Everything on One Page</h2>
+    <p>Your services, about, contact and reviews neatly on a single, easy-to-read page.</p>
+  </div>
+
+  <div class="portfolio-card">
+    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=900&q=80" alt="Contact enquiry form" loading="lazy">
+    <h2>Enquiry Form Built In</h2>
+    <p>A simple contact form so customers can reach you the moment they land on your site.</p>
+  </div>
+</section>
+
+<section class="explain">
+  <h2>What is a starter website?</h2>
+  <p>A starter website is a simple, one-page website that gets your business online quickly and affordably. Everything a customer needs - what you do, why to choose you and how to contact you - sits on a single, easy-to-scroll page.</p>
+  <p>It is the perfect first step for a new business: professional enough to build trust, simple enough to launch in days, and priced from just £100.</p>
+</section>
+
+<section class="about-cta">
+  <h2>Get online from £100.</h2>
+  <p>Perfect for new businesses that need a professional presence without the big price tag.</p>
+  <a href="contact.html" class="article-button">Get a Free Quote</a>
+</section>
+
+<a href="https://wa.me/447780828487" class="whatsapp-float" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="Chat with Ready Set Site on WhatsApp">
+</a>
+
+<footer>
+  <p>&copy; 2026 Ready Set Site. All Rights Reserved.</p>
+</footer>
+
+<script src="chat.js" defer></script>
+</body>
+<script>
+function toggleMenu() {
+    document.getElementById("mobileMenu").classList.toggle("show-menu");
+}
+</script>
+</html>

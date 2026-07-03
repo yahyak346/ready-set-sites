@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.log
+
+# Local agent config
+.claude/
+
+# Large media not needed for deployment
+*.mp4
